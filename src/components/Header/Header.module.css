@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav_title {
+  display: flex;
+  gap: 22px;
+}
+
+.nav_title a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #211f54;
+}
+
+.nav_button {
+  display: flex;
+  gap: 24px;
+}
+.cart {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #211f54;
+}
+
+.button {
+  padding: 19px 24px;
+  background: #0075ff;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 227px;
+}
+.hero{
+    background-image: url("/public/hero.svg");
+    background-repeat: no-repeat;
+    background-position: 660px 0;
+}
+.hero_title{
+    width: 590px;
+    
+}
+.hero_title h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 74px;
+color: #211F54;
+padding-top: 200px;
+padding-right: 30px;
+padding-bottom: 22px;
+}
+.hero_title p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: #6E7191;
+padding-bottom: 34px;
+
+}
+
+
+
+
+
+

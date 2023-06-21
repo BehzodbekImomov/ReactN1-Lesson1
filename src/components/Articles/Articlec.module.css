@@ -1,0 +1,106 @@
+.articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.desc {
+  width: 474px;
+  padding-bottom: 5px;
+  
+}
+.desc h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  padding-bottom: 10px;
+  color: #211f54;
+}
+.desc p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+
+  color: #6e7191;
+}
+
+.browse {
+  padding: 26px 39px;
+  background: #ffffff;
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 28px;
+  color: #211f54;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.card_desc{
+    width: 536px;
+    background: #FFFFFF;
+border: 1px solid #EFF0F6;
+box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+border-radius: 24px;
+position: relative;
+bottom: 65px;
+margin: 0 auto;
+padding-bottom: 65px;
+}
+.card_desc h4{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+padding: 52px 70px 17px 49px;
+
+color: #211F54;
+}
+.card_desc p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+padding: 0 53px 10px 49px;
+color: #6E7191;
+}
+.desc_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desc_img span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+padding-left: 49px;
+
+color: #211F54;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: 
+    #0075FF;
+    margin-right: 49px;
+}
